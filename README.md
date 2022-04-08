@@ -1,61 +1,62 @@
-# GITHUB CODES
-### Getting Started
+# GIT COMMANDS
+### GIT COMMANDS
 
 ```git init```
 
-This creates a local repository in your current folder. Hidden by default.
-
-### Adding files
+**Initialize a local Git repository**
 
 ```git add <filename>```
 
-Adds the specified file to the staging area so that it can be commited later. Alternatively,
+**Add a file to the staging area**
 
 ```git add .```
 
-Adds all files present in current folder to the staging area.
-
-### Removing a file from the staging area:
+**Add all new and changed files to the staging area**
 
 ```git rm --cached <filename>```
 
-
-### Commiting files and other related tasks
+**Remove a file**
 
 ```git commit -m "comment"```
 
-Commits all the files present in the staging area to the local repository with a comment specified by the user.
+**Commit changes**
 
 ```git status```
 
-Shows the status of all files in working directory.
+**Check status**
+
+```git clone repo_url	```
+
+**Clone public repository**
 
 ```git log```
 
 Shows a log of all actions done by the user.
 
-### Branches
+```git config```
 
-Branches help the developer to give a step-by-step view of their development process. This can be done by creating different branches at different stages of development, so that the developer can easily revert back to an older version in case of any errors.
+**View changes**
 
-```git branch <name>```
+```git branch```
 
-Creates a new branch with the specified name.
+**List of branches git branch -a**
 
-```git checkout <name>```
+```git checkout```
 
-Switches to the branch with specified name.
+**Switch to the branch last checked out**
 
-### Remote repositories
+```git diff```
+
+**Shows the file differences which are not yet staged**
 
 ```git remote add origin <link>```
 
-Adds a remote repository with the specified link.
+**Adds a remote repository with the specified link**
 
 ```git push -u origin master```
 
-Pushes or uploads all files from user's local repository to the remote repository specified earlier.
+**Pushes or uploads all files from user's local repository to the remote repository specified earlier**
 
 ```git pull```
 
-This will "pull" i.e. download all the content from a remote repository to your local repostiory.
+**This will "pull" i.e. download all the content from a remote repository to your local repostiory**
