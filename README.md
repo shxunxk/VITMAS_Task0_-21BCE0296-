@@ -1,5 +1,4 @@
 # GIT COMMANDS
-### GIT COMMANDS
 
 ```git init```
 
@@ -31,7 +30,7 @@
 
 ```git log```
 
-Shows a log of all actions done by the user.
+**Shows a log of all actions done by the user**
 
 ```git config```
 
@@ -51,7 +50,7 @@ Shows a log of all actions done by the user.
 
 ```git remote add origin <link>```
 
-**Adds a remote repository with the specified link**
+**Adds a remote repository**
 
 ```git push -u origin master```
 
@@ -59,4 +58,4 @@ Shows a log of all actions done by the user.
 
 ```git pull```
 
-**This will "pull" i.e. download all the content from a remote repository to your local repostiory**
+**This will download all the content from a remote repository to your local repostiory**
